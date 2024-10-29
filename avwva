@@ -1,0 +1,49 @@
+
+StringTokenizer st = new StringTokenizer(Agendados.getText(),"\n");// agendados é jtextarea
+      String[] elem = new String[st.countTokens()];
+      for(int j=0; st.hasMoreTokens(); j++){
+          elem[j] = st.nextToken();
+          if(elem[j].contains("Janeiro")){
+              if(elem[j].contains("Segunda-feira") ){
+                if(elem[j].contains("08:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"08:00");
+                }else if(elem[j].contains("08:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"08:30");
+                }else if(elem[j].contains("09:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"09:00");
+                }else if(elem[j].contains("09:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"09:30");
+                }else if(elem[j].contains("10:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"10:00");
+                }else if(elem[j].contains("10:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"10:30");
+                }else if(elem[j].contains("11:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"11:00");
+                }else if(elem[j].contains("11:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"11:30");
+                }else if(elem[j].contains("13:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"13:00");
+                }else if(elem[j].contains("13:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"13:30");
+                }else if(elem[j].contains("14:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"14:00");
+                }else if(elem[j].contains("14:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"14:30");
+                }else if(elem[j].contains("15:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"15:00");
+                }else if(elem[j].contains("15:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"15:30");
+                }else if(elem[j].contains("16:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"16:00");
+                }else if(elem[j].contains("16:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"16:30");
+                }else if(elem[j].contains("17:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"17:00");
+                }else if(elem[j].contains("17:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"17:30");
+                }else if(elem[j].contains("18:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"18:00");
+                }else if(elem[j].contains("18:30") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"18:30");
+                }else if(elem[j].contains("19:00") ){
+                    Alterar(elem[j].substring(0, 2),"Segunda-feira","Janeiro",Integer.parseInt("" +idDias.getText()),"19:00");
